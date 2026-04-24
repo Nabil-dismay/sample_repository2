@@ -1,1 +1,5 @@
 print("Hello World")
+def greet(name):
+    if not name:
+        return "Hello, Stranger"
+    return "Hello, " + nam
